@@ -62,7 +62,7 @@ def test_payment_terminal():
         print(f"打開串列埠時發生錯誤: {e}" , file=f)
         return
 
-    data_positions = pd.jkopay
+    data_positions = pd.now
 
     packet = build_packet(data_positions)
 
